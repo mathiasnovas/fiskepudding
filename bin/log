@@ -20,9 +20,9 @@ end
 
 echo '' > $functions_folder/README.md 
 
-echo '## Functions' > $functions_folder/functions.md
+echo '## Functions list' > $functions_folder/functions.md
 
-ls -l ~/.config/fish/functions/ | awk '{print $9}' | grep '.fish' >> $functions_folder/functions.md 
+echo (ls $functions_folder | grep '.fish' | while read line; echo '*' $line; end) >> $functions_folder/functions.md 
 
 cat $functions_folder/description.md > $functions_folder/README.md
 cat $functions_folder/functions.md >> $functions_folder/README.md
