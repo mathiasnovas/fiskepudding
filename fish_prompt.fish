@@ -1,0 +1,1 @@
+/Users/mathias/.local/share/omf/themes/toaster/fish_prompt.fish
