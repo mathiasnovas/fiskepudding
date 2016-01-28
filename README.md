@@ -21,6 +21,7 @@ Run `./bin/log` to generate a new README.md after adding a new function.
 * la.fish
 * mountvm.fish
 * rainbow.fish
+* tgif.fish
 * timer.fish
 * wt.fish
 * ww.fish
