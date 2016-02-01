@@ -5,6 +5,14 @@ function dru --argument site
         return 0
     end
 
+    set drupal_path /var/www/drupal/sites
+
+    if test -e $drupal_path
+    else
+        echo "Hmm... You do not appear to have a local drupal directory. I looked for: $drupal_path"
+        return 0
+    end
+
 	set drupal_version (ls -t /var/www/drupal/sites | head -1)
     set site_path /var/www/drupal/sites/$drupal_version/$site
 
