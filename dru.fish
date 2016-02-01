@@ -1,6 +1,5 @@
 function dru --argument site
 	if test $site
-        # echo "$site ＼(￣▽￣;)／"
     else
         echo "[o_Ô] Where are you going?!"
         return 0
