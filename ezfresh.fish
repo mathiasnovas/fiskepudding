@@ -10,7 +10,7 @@ function ezfresh
     echo ""   
 
     set_color green
-    echo "(｡ ‿ ｡) done"
+    echo "(｡ ‿ ｡) Done!"
 
     cd $current_path
 end
