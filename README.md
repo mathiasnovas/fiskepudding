@@ -1,4 +1,4 @@
-# Fish shell functions
+# Fish shell functions 🐟
 Git repository for storing custom Fish Shell functions.
 
 ## Update functions list
