@@ -9,6 +9,7 @@ Run `./bin/log` to generate a new README.md after adding a new function.
 * c.fish
 * currtheme.fish
 * dru.fish
+* drupalupdate.fish
 * ez.fish
 * ez5mount.fish
 * ezfresh.fish
