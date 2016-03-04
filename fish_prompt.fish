@@ -1,1 +1,0 @@
-/root/.local/share/omf/themes/toaster/fish_prompt.fish
